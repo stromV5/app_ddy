@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="52px" height="52px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 1024 0  L 1024 1024  L 0 1024  Z " fill-rule="evenodd" fill="black" id="path221" />
+    <clipPath id="clip222">
+      <use xlink:href="#path221" />
+    </clipPath>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter223">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="58px" y="261px" width="52px" height="52px" filterUnits="userSpaceOnUse" id="filter224">
+      <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget225">
+      <g transform="matrix(0.046875 0 0 0.046875 58 261 )" clip-path="url(#clip222)" filter="url(#filter223)">
+        <path d="M648.518 706.836c-9.646 0-17.492 7.846-17.492 17.492 0 9.644 7.846 17.492 17.492 17.492 9.642 0 17.488-7.848 17.488-17.492C666.006 714.682 658.16 706.836 648.518 706.836z" p-id="14340" fill="#d81e06"></path>
+        <path d="M423.116 706.836c-9.644 0-17.492 7.846-17.492 17.492 0 9.644 7.848 17.492 17.492 17.492s17.492-7.848 17.492-17.492C440.606 714.682 432.76 706.836 423.116 706.836z" p-id="14341" fill="#d81e06"></path>
+        <path d="M403.264 592.104 690.312 599.464 712.36 540.672 398.588 547.698Z" p-id="14342" fill="#d81e06"></path>
+        <path d="M730.706 491.75 747.352 447.358 389.156 440.246 396.368 499.236Z" p-id="14343" fill="#d81e06"></path>
+        <path d="M512 0C229.23 0 0 229.23 0 512c0 282.772 229.23 512 512 512s512-229.228 512-512C1024 229.23 794.77 0 512 0zM423.116 790.318c-36.388 0-65.99-29.604-65.99-65.99 0-36.388 29.602-65.99 65.99-65.99s65.99 29.602 65.99 65.99C489.106 760.714 459.502 790.318 423.116 790.318zM648.518 790.318c-36.388 0-65.992-29.604-65.992-65.99 0-36.388 29.604-65.99 65.992-65.99 36.384 0 65.988 29.602 65.988 65.99C714.506 760.714 684.902 790.318 648.518 790.318zM723.596 648.832l-364.112-9.334L325.536 316.96l-118.358-36.986 14.466-46.292 148.786 46.496 11.728 111.418 434.664 8.63L723.596 648.832z" p-id="14344" fill="#d81e06"></path>
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -58 -261 )">
+    <use xlink:href="#widget225" filter="url(#filter224)" />
+    <use xlink:href="#widget225" />
+  </g>
+</svg>
